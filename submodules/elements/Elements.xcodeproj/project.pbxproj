@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D051B0CF1B029731003AFD52 /* EMViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D051B0CD1B029731003AFD52 /* EMViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D051B0D01B029731003AFD52 /* EMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D051B0CE1B029731003AFD52 /* EMViewController.m */; };
+		D051B0DA1B029879003AFD52 /* EMViewControllerPresentationContext.h in Headers */ = {isa = PBXBuildFile; fileRef = D051B0D81B029879003AFD52 /* EMViewControllerPresentationContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D051B0DE1B029946003AFD52 /* EMStatusBar.h in Headers */ = {isa = PBXBuildFile; fileRef = D051B0DC1B029946003AFD52 /* EMStatusBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D051B0DF1B029946003AFD52 /* EMStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D051B0DD1B029946003AFD52 /* EMStatusBar.m */; };
+		D051B0E31B029D68003AFD52 /* EMUserInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = D051B0E11B029D68003AFD52 /* EMUserInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D051B0E41B029D68003AFD52 /* EMUserInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = D051B0E21B029D68003AFD52 /* EMUserInterface.m */; };
+		D051B0E81B029DE6003AFD52 /* EMNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = D051B0E61B029DE6003AFD52 /* EMNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D051B0E91B029DE6003AFD52 /* EMNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D051B0E71B029DE6003AFD52 /* EMNavigationBar.m */; };
+		D051B0EC1B029F8F003AFD52 /* EMStatusBarWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = D051B0EA1B029F8F003AFD52 /* EMStatusBarWindow.h */; };
+		D051B0ED1B029F8F003AFD52 /* EMStatusBarWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D051B0EB1B029F8F003AFD52 /* EMStatusBarWindow.m */; };
+		D051B0F91B0379DD003AFD52 /* EMStatusBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = D051B0F71B0379DD003AFD52 /* EMStatusBarController.h */; };
+		D051B0FA1B0379DD003AFD52 /* EMStatusBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D051B0F81B0379DD003AFD52 /* EMStatusBarController.m */; };
+		D079AB8D1AF2749500076F59 /* EMImage.h in Headers */ = {isa = PBXBuildFile; fileRef = D079AB8B1AF2749500076F59 /* EMImage.h */; };
+		D079AB8E1AF2749500076F59 /* EMImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D079AB8C1AF2749500076F59 /* EMImage.m */; };
+		D0DCF5D11AEED26300D5B7A1 /* Elements.h in Headers */ = {isa = PBXBuildFile; fileRef = D0DCF5D01AEED26300D5B7A1 /* Elements.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0DCF5D71AEED26300D5B7A1 /* Elements.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DCF5CB1AEED26300D5B7A1 /* Elements.framework */; };
+		D0DCF5DE1AEED26300D5B7A1 /* ElementsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DCF5DD1AEED26300D5B7A1 /* ElementsTests.m */; };
+		D0DCF5F61AEEFE9E00D5B7A1 /* EMInMemoryImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D0DCF5F41AEEFE9E00D5B7A1 /* EMInMemoryImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0DCF5F71AEEFE9E00D5B7A1 /* EMInMemoryImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DCF5F51AEEFE9E00D5B7A1 /* EMInMemoryImageCache.m */; };
+		D0DCF5FA1AEF001A00D5B7A1 /* EMImageData.h in Headers */ = {isa = PBXBuildFile; fileRef = D0DCF5F81AEF001A00D5B7A1 /* EMImageData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0DCF5FB1AEF001A00D5B7A1 /* EMImageData.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DCF5F91AEF001A00D5B7A1 /* EMImageData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0DCF5D81AEED26300D5B7A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0DCF5C21AEED26300D5B7A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0DCF5CA1AEED26300D5B7A1;
+			remoteInfo = Elements;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D051B0CD1B029731003AFD52 /* EMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMViewController.h; sourceTree = "<group>"; };
+		D051B0CE1B029731003AFD52 /* EMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMViewController.m; sourceTree = "<group>"; };
+		D051B0D81B029879003AFD52 /* EMViewControllerPresentationContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMViewControllerPresentationContext.h; sourceTree = "<group>"; };
+		D051B0DC1B029946003AFD52 /* EMStatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMStatusBar.h; sourceTree = "<group>"; };
+		D051B0DD1B029946003AFD52 /* EMStatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMStatusBar.m; sourceTree = "<group>"; };
+		D051B0E11B029D68003AFD52 /* EMUserInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMUserInterface.h; sourceTree = "<group>"; };
+		D051B0E21B029D68003AFD52 /* EMUserInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMUserInterface.m; sourceTree = "<group>"; };
+		D051B0E61B029DE6003AFD52 /* EMNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMNavigationBar.h; sourceTree = "<group>"; };
+		D051B0E71B029DE6003AFD52 /* EMNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMNavigationBar.m; sourceTree = "<group>"; };
+		D051B0EA1B029F8F003AFD52 /* EMStatusBarWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMStatusBarWindow.h; sourceTree = "<group>"; };
+		D051B0EB1B029F8F003AFD52 /* EMStatusBarWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMStatusBarWindow.m; sourceTree = "<group>"; };
+		D051B0F71B0379DD003AFD52 /* EMStatusBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMStatusBarController.h; sourceTree = "<group>"; };
+		D051B0F81B0379DD003AFD52 /* EMStatusBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMStatusBarController.m; sourceTree = "<group>"; };
+		D079AB8B1AF2749500076F59 /* EMImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMImage.h; sourceTree = "<group>"; };
+		D079AB8C1AF2749500076F59 /* EMImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMImage.m; sourceTree = "<group>"; };
+		D0DCF5CB1AEED26300D5B7A1 /* Elements.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Elements.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0DCF5CF1AEED26300D5B7A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0DCF5D01AEED26300D5B7A1 /* Elements.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Elements.h; sourceTree = "<group>"; };
+		D0DCF5D61AEED26300D5B7A1 /* ElementsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElementsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0DCF5DC1AEED26300D5B7A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0DCF5DD1AEED26300D5B7A1 /* ElementsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElementsTests.m; sourceTree = "<group>"; };
+		D0DCF5F41AEEFE9E00D5B7A1 /* EMInMemoryImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMInMemoryImageCache.h; sourceTree = "<group>"; };
+		D0DCF5F51AEEFE9E00D5B7A1 /* EMInMemoryImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMInMemoryImageCache.m; sourceTree = "<group>"; };
+		D0DCF5F81AEF001A00D5B7A1 /* EMImageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMImageData.h; sourceTree = "<group>"; };
+		D0DCF5F91AEF001A00D5B7A1 /* EMImageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMImageData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0DCF5C71AEED26300D5B7A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0DCF5D31AEED26300D5B7A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DCF5D71AEED26300D5B7A1 /* Elements.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D051B0D11B029735003AFD52 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D051B0E51B029D7C003AFD52 /* Presentation Context */,
+				D051B0E61B029DE6003AFD52 /* EMNavigationBar.h */,
+				D051B0E71B029DE6003AFD52 /* EMNavigationBar.m */,
+				D051B0DC1B029946003AFD52 /* EMStatusBar.h */,
+				D051B0DD1B029946003AFD52 /* EMStatusBar.m */,
+				D051B0CD1B029731003AFD52 /* EMViewController.h */,
+				D051B0CE1B029731003AFD52 /* EMViewController.m */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		D051B0D31B0297F3003AFD52 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				D051B0E01B029D4C003AFD52 /* Utils */,
+				D051B0D11B029735003AFD52 /* View Controller */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		D051B0E01B029D4C003AFD52 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D051B0F51B037999003AFD52 /* User Interface */,
+				D051B0F61B0379A3003AFD52 /* Status Bar */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		D051B0E51B029D7C003AFD52 /* Presentation Context */ = {
+			isa = PBXGroup;
+			children = (
+				D051B0D81B029879003AFD52 /* EMViewControllerPresentationContext.h */,
+			);
+			name = "Presentation Context";
+			sourceTree = "<group>";
+		};
+		D051B0F51B037999003AFD52 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				D051B0E11B029D68003AFD52 /* EMUserInterface.h */,
+				D051B0E21B029D68003AFD52 /* EMUserInterface.m */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		D051B0F61B0379A3003AFD52 /* Status Bar */ = {
+			isa = PBXGroup;
+			children = (
+				D051B0EA1B029F8F003AFD52 /* EMStatusBarWindow.h */,
+				D051B0EB1B029F8F003AFD52 /* EMStatusBarWindow.m */,
+				D051B0F71B0379DD003AFD52 /* EMStatusBarController.h */,
+				D051B0F81B0379DD003AFD52 /* EMStatusBarController.m */,
+			);
+			name = "Status Bar";
+			sourceTree = "<group>";
+		};
+		D0DCF5C11AEED26300D5B7A1 = {
+			isa = PBXGroup;
+			children = (
+				D0DCF5F31AEEFE8400D5B7A1 /* In-Memory Cache */,
+				D051B0D31B0297F3003AFD52 /* User Interface */,
+				D0DCF5CD1AEED26300D5B7A1 /* Elements */,
+				D0DCF5DA1AEED26300D5B7A1 /* ElementsTests */,
+				D0DCF5CC1AEED26300D5B7A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0DCF5CC1AEED26300D5B7A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0DCF5CB1AEED26300D5B7A1 /* Elements.framework */,
+				D0DCF5D61AEED26300D5B7A1 /* ElementsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0DCF5CD1AEED26300D5B7A1 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				D0DCF5D01AEED26300D5B7A1 /* Elements.h */,
+				D0DCF5CE1AEED26300D5B7A1 /* Supporting Files */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+		D0DCF5CE1AEED26300D5B7A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0DCF5CF1AEED26300D5B7A1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0DCF5DA1AEED26300D5B7A1 /* ElementsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0DCF5DD1AEED26300D5B7A1 /* ElementsTests.m */,
+				D0DCF5DB1AEED26300D5B7A1 /* Supporting Files */,
+			);
+			path = ElementsTests;
+			sourceTree = "<group>";
+		};
+		D0DCF5DB1AEED26300D5B7A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0DCF5DC1AEED26300D5B7A1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0DCF5F31AEEFE8400D5B7A1 /* In-Memory Cache */ = {
+			isa = PBXGroup;
+			children = (
+				D0DCF5F41AEEFE9E00D5B7A1 /* EMInMemoryImageCache.h */,
+				D0DCF5F51AEEFE9E00D5B7A1 /* EMInMemoryImageCache.m */,
+				D0DCF5F81AEF001A00D5B7A1 /* EMImageData.h */,
+				D0DCF5F91AEF001A00D5B7A1 /* EMImageData.m */,
+				D079AB8B1AF2749500076F59 /* EMImage.h */,
+				D079AB8C1AF2749500076F59 /* EMImage.m */,
+			);
+			name = "In-Memory Cache";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D0DCF5C81AEED26300D5B7A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D051B0EC1B029F8F003AFD52 /* EMStatusBarWindow.h in Headers */,
+				D051B0DE1B029946003AFD52 /* EMStatusBar.h in Headers */,
+				D051B0E81B029DE6003AFD52 /* EMNavigationBar.h in Headers */,
+				D051B0E31B029D68003AFD52 /* EMUserInterface.h in Headers */,
+				D079AB8D1AF2749500076F59 /* EMImage.h in Headers */,
+				D051B0F91B0379DD003AFD52 /* EMStatusBarController.h in Headers */,
+				D051B0DA1B029879003AFD52 /* EMViewControllerPresentationContext.h in Headers */,
+				D051B0CF1B029731003AFD52 /* EMViewController.h in Headers */,
+				D0DCF5D11AEED26300D5B7A1 /* Elements.h in Headers */,
+				D0DCF5FA1AEF001A00D5B7A1 /* EMImageData.h in Headers */,
+				D0DCF5F61AEEFE9E00D5B7A1 /* EMInMemoryImageCache.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D0DCF5CA1AEED26300D5B7A1 /* Elements */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0DCF5E11AEED26300D5B7A1 /* Build configuration list for PBXNativeTarget "Elements" */;
+			buildPhases = (
+				D0DCF5C61AEED26300D5B7A1 /* Sources */,
+				D0DCF5C71AEED26300D5B7A1 /* Frameworks */,
+				D0DCF5C81AEED26300D5B7A1 /* Headers */,
+				D0DCF5C91AEED26300D5B7A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Elements;
+			productName = Elements;
+			productReference = D0DCF5CB1AEED26300D5B7A1 /* Elements.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D0DCF5D51AEED26300D5B7A1 /* ElementsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0DCF5E41AEED26300D5B7A1 /* Build configuration list for PBXNativeTarget "ElementsTests" */;
+			buildPhases = (
+				D0DCF5D21AEED26300D5B7A1 /* Sources */,
+				D0DCF5D31AEED26300D5B7A1 /* Frameworks */,
+				D0DCF5D41AEED26300D5B7A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0DCF5D91AEED26300D5B7A1 /* PBXTargetDependency */,
+			);
+			name = ElementsTests;
+			productName = ElementsTests;
+			productReference = D0DCF5D61AEED26300D5B7A1 /* ElementsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0DCF5C21AEED26300D5B7A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Telegram;
+				TargetAttributes = {
+					D0DCF5CA1AEED26300D5B7A1 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					D0DCF5D51AEED26300D5B7A1 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = D0DCF5C51AEED26300D5B7A1 /* Build configuration list for PBXProject "Elements" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0DCF5C11AEED26300D5B7A1;
+			productRefGroup = D0DCF5CC1AEED26300D5B7A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0DCF5CA1AEED26300D5B7A1 /* Elements */,
+				D0DCF5D51AEED26300D5B7A1 /* ElementsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0DCF5C91AEED26300D5B7A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0DCF5D41AEED26300D5B7A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0DCF5C61AEED26300D5B7A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DCF5F71AEEFE9E00D5B7A1 /* EMInMemoryImageCache.m in Sources */,
+				D051B0ED1B029F8F003AFD52 /* EMStatusBarWindow.m in Sources */,
+				D051B0DF1B029946003AFD52 /* EMStatusBar.m in Sources */,
+				D051B0E91B029DE6003AFD52 /* EMNavigationBar.m in Sources */,
+				D051B0E41B029D68003AFD52 /* EMUserInterface.m in Sources */,
+				D079AB8E1AF2749500076F59 /* EMImage.m in Sources */,
+				D051B0D01B029731003AFD52 /* EMViewController.m in Sources */,
+				D051B0FA1B0379DD003AFD52 /* EMStatusBarController.m in Sources */,
+				D0DCF5FB1AEF001A00D5B7A1 /* EMImageData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0DCF5D21AEED26300D5B7A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DCF5DE1AEED26300D5B7A1 /* ElementsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0DCF5D91AEED26300D5B7A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0DCF5CA1AEED26300D5B7A1 /* Elements */;
+			targetProxy = D0DCF5D81AEED26300D5B7A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D0DCF5DF1AEED26300D5B7A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0DCF5E01AEED26300D5B7A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D0DCF5E21AEED26300D5B7A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Elements/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D0DCF5E31AEED26300D5B7A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Elements/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D0DCF5E51AEED26300D5B7A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ElementsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D0DCF5E61AEED26300D5B7A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ElementsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0DCF5C51AEED26300D5B7A1 /* Build configuration list for PBXProject "Elements" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0DCF5DF1AEED26300D5B7A1 /* Debug */,
+				D0DCF5E01AEED26300D5B7A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0DCF5E11AEED26300D5B7A1 /* Build configuration list for PBXNativeTarget "Elements" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0DCF5E21AEED26300D5B7A1 /* Debug */,
+				D0DCF5E31AEED26300D5B7A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0DCF5E41AEED26300D5B7A1 /* Build configuration list for PBXNativeTarget "ElementsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0DCF5E51AEED26300D5B7A1 /* Debug */,
+				D0DCF5E61AEED26300D5B7A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0DCF5C21AEED26300D5B7A1 /* Project object */;
+}
